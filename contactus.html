@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">  
+</head>
+<body>
+<!-- start navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+<div class="container">
+<div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+     </button>
+   <a href="" class="navbar-brand">ASOS<span>DESIGN</span></a>    
+   </div>   
+   <div class="collapse navbar-collapse" id="mynav">
+       <ul class="nav navbar-nav navbar-right ">
+            <li ><a href="index.html">HOME</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li><a href="sunglasses.html">SUNGLASSES</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active" ><a href="#">Contact us </a></li>
+            <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Shop <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="womens-collection.html">Womens Collection</a></li>
+            <li><a href="men-collection.html" >Mens Collection</a></li>
+            <li><a href="#" class="divider"></a></li>
+            <li><a href="#">Shop By Trend</a></li>
+          </ul>
+        </li>
+       </ul>
+   </div>     
+ </div>
+ </nav>
+<!-- end navbar-->
+
+     
+<section class="ourcontact text-center">
+    
+    <div class="contactback">
+        
+<div class="container">
+   <div class="row">
+    
+   <i class="fa fa-headphones fa-5x"></i>
+   <h1>Lorem ipsum dolor sit amet.</h1>
+   <p class="lead">Lorem ipsum dolor sit amet.</p>
+   <form action="">
+   <div class="col-md-6">
+   <div class="form-group">
+       <input type="text" placeholder="user name" class="form-control input-lg">
+   </div> 
+    <div class="form-group">
+       <input type="text" placeholder="Email" class="form-control input-lg">
+   </div>  
+     <div class="form-group">
+       <input type="text" placeholder="phone" class="form-control input-lg">
+   </div>    
+    </div> 
+     <div class="col-md-6">
+       <div class="form-group">
+       <textarea  class="form-control input-lg" placeholder="your message "></textarea>
+     
+   </div>
+    <button type="button" class="btn btn-danger btn-lg btn-block">contact us</button>     
+     </div>      
+   </form> 
+</div>
+    </div>
+  </div>   
+ </section>
+ 
+ <section class="our-client">
+     <div class="container">
+         <div class="row">
+             <ul class="list-unstyled">
+                 <li class="col-lg-2 col-xs-6"><img src="imgs/brand1.png" alt="pic" /></li>
+                 <li class="col-lg-2 col-xs-6"><img src="imgs/brand2.png" alt="pic" /></li>
+                 <li class="col-lg-2 col-xs-6"><img src="imgs/brand3.png" alt="pic" /></li>
+                 <li class="col-lg-2 col-xs-6"><img src="imgs/brand4.png" alt="pic" /></li>
+                 <li class="col-lg-2 col-xs-6"><img src="imgs/brand5.png" alt="pic" /></li>
+                 <li class="col-lg-2 col-xs-6"><img src="imgs/brand6.png" alt="pic" /></li>
+             </ul> 
+         </div>
+     </div>
+ </section>
+ <footer>
+     <div class="container text-center">
+        <p>Copyright&copy2017 <span>ASOSDESIGN</span>.Inc</p> 
+     </div>
+ </footer>
+ <div class="scroll-top">
+     <i class="fa fa-chevron-up fa-3x"></i>
+ </div>
+  <script src="js/jquery-3.1.1.min.js"></script>
+           <script src="js/js.js"></script>
+            <script src="js/jquery-ui.min.js"></script>
+        <script src="js/bootstrap.js"></script> 
+        <script>
+    var scrolltop=$('.scroll-top');
+            
+   $(window).scroll(function(){
+       if($(this).scrollTop()>=700){
+         scrolltop.show();   
+       }
+       else{
+         scrolltop.hide();    
+       }
+   });         
+   scrolltop.click(function(){
+       $('html,body').animate({ scrollTop : 0 }, 600);
+   });
+          
+    </script>                                      
+</body>
+</html>
